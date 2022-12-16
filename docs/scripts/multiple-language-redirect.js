@@ -59,6 +59,10 @@ function findTranslationsListItem(translationsListItemName) {
     if (null == ul) {
         return null;
     }
+    
+    if (null == ul) {
+        return null;
+    }
 
     const listItems = ul.querySelectorAll("li");
     if (null == listItems) {
